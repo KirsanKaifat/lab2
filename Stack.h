@@ -1,3 +1,7 @@
+#ifndef BRACKET_STACK_H
+#define BRACKET_STACK_H
+
+
 struct StackItem{
     int data;
     StackItem *next;
@@ -12,3 +16,5 @@ public:
     int Head();
     bool IsEmpty();
 };
+
+#endif
