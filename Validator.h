@@ -1,3 +1,6 @@
+#ifndef BRACKET_VALIDATOR_H
+#define BRACKET_VALIDATOR_H
+
 #include <fstream>
 #include "Stack.h"
 
@@ -18,3 +21,5 @@ private:
     bool IsOpenBracket(char inputChar);
     bool IsCloseBracket(char inputChar);
 };
+
+#endif
